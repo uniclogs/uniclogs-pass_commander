@@ -11,6 +11,14 @@ This software controlls the local functions of a [UniClOGS](https://www.oresat.o
 * Interacts with the [OreSat GNURadio flowgraph](https://github.com/uniclogs/uniclogs-sdr/tree/maint-3.10/flowgraphs) to manage Doppler shifting and to send command packets
 
 ## Installing
+
+### Local Dev Install
+
+* `pip install -e .[dev]`
+* `pass-commander --help`
+
+### Manual Install
+
 ```sh
 git clone https://github.com/uniclogs/uniclogs-pass_commander.git
 sudo apt install python3-pip python3-hamlib python3-pydbus python3-requests python3-apscheduler python3-ephem

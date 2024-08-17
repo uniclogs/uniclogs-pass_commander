@@ -1,0 +1,13 @@
+[project]
+name = "pass-commander"
+dynamic = ["version"]
+dependencies = [
+    "APScheduler ~= 3.9.1",
+    "pydbus ~= 0.6.0",
+    "pyephem ~= 9.99",
+    "Requests ~= 2.31.0",
+    "ephem ~= 4.1.4",
+]
+
+[project.scripts]
+pass-commander = "pass_commander:__main__.main"
